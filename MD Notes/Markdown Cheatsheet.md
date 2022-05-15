@@ -62,7 +62,35 @@ Sum: \sum
 Limits of sum: \limits _{} ^{}  
 Beta: \beta  
 
-$\hat{Y} = \hat{\beta}_{0} + \sum \limits _{j=1} ^{p} X_{j}\hat{\beta}_{j} $
+$\hat{Y} = \hat{\beta}_{0} + \sum \limits _{j=1} ^{p} X_{j}\hat{\beta}_{j} $  
+
+### `Matrix`, Arrow, multiplication (cross symbol)
+$$
+y_{6 \times 1} = \begin{bmatrix}
+1\\
+2\\
+6\\
+1\\
+8\\
+6
+\end{bmatrix} \xrightarrow[transforms]{LabelEncoder} y'_{6 \times 1} = \begin{bmatrix}
+0\\
+1\\
+2\\
+0\\
+3\\
+2
+\end{bmatrix}
+$$
+
+### Spaces and Alignments
+$$
+\begin{align*} 
+& f(x) = x^2+3x+2 \\
+& f(x) = x^2\quad +3x\quad +2 \\
+& f(x) = x^2\qquad +3x\qquad +2
+\end{align*}
+$$
 
 ### Font Color
 <font color=red>Font color is Red</font>  
